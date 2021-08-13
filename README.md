@@ -1,4 +1,4 @@
-# responsive
+# responsive-website-practice
 
 ## Project setup
 ```
