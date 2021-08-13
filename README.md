@@ -1,5 +1,24 @@
-# Lokuri Website
+# responsive
 
-> Fake cloud hosting website used in this [YouTube tutorial](https://www.youtube.com/watch?v=p0bGHP-PXD4)
+## Project setup
+```
+npm install
+```
 
-> Fake cloud hosting website [Live Preview](https://zen-carson-c10c9f.netlify.app)
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
