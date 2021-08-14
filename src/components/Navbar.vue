@@ -1,12 +1,12 @@
 <template>
   <div class="navbar">
-    <div class="container flex">
+    <div class="container row space-between navbar__wrapper">
       <h1 class="_logo">Loruki</h1>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Docs</a></li>
+          <li><a href="#" class="_link">Home</a></li>
+          <li><a href="#" class="_link">Features</a></li>
+          <li><a href="#" class="_link">Docs</a></li>
         </ul>
       </nav>
     </div>
@@ -26,24 +26,24 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@import '../css/colors.sass'
 .navbar
-  background-color: #047aed
-  color: whitesmoke
+  background-color: $c-blue
+  color: $c-white
   height: 70px
 .navbar ul
   display: flex
-.navbar a
-  color: smokewhite
+.navbar__wrapper
+  justify-content: center
+  align-items: center
+
+._link
+  color: $c-white
   padding: 10px
   margin: 0 5px
+  &:hover
+    border-bottom: 2px solid $c-white
 
-.navbar .flex
+.navbar .space-between
   justify-content: space-between
-
-.container
-  height: 100%
-  max-width: 1100px
-  margin: 0 auto
-  overflow: auto
-  padding: 0 40px
 </style>

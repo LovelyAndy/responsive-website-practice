@@ -1,21 +1,28 @@
 <template>
   <Navbar />
+  <Showcase />
+  <Stats />
   <!-- <fa icon="coffee" />
   <fa :icon="['fab', 'youtube']" /> -->
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue'
+import Showcase from './components/Showcase.vue'
+import Stats from './components/Stats.vue'
 export default {
   components: {
     Navbar,
+    Showcase,
+    Stats,
   },
 }
 </script>
 
 <style lang="sass">
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap')
-@import './css/global.sass'
+@import './css/utils.sass'
+@import './css/colors.sass'
 
 *
   box-sizing: border-box
@@ -23,12 +30,13 @@ export default {
   margin: 0
 body
   font-family: 'Lato', sans-serif
-  color: #333
+  background-color: $c-white
+
 ul
   list-style-type: none
 a
   text-decoration: none
-  color: #333
+
 h1,h2
   font-weight: 300
   line-height: 1.2
