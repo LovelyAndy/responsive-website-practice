@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <div class="container">
+    <div class="container flex">
       <h1 class="_logo">Loruki</h1>
       <nav>
         <ul>
@@ -26,6 +26,24 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-a
-  color: red
+.navbar
+  background-color: #047aed
+  color: whitesmoke
+  height: 70px
+.navbar ul
+  display: flex
+.navbar a
+  color: smokewhite
+  padding: 10px
+  margin: 0 5px
+
+.navbar .flex
+  justify-content: space-between
+
+.container
+  height: 100%
+  max-width: 1100px
+  margin: 0 auto
+  overflow: auto
+  padding: 0 40px
 </style>

@@ -14,20 +14,27 @@ export default {
 </script>
 
 <style lang="sass">
-#app
-  font-family: Avenir, Helvetica, Arial, sans-serif
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
-  text-align: center
-  color: #2c3e50
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap')
+@import './css/global.sass'
 
-#nav
-  padding: 30px
-
-  a
-    font-weight: bold
-    color: #2c3e50
-
-    &.router-link-exact-active
-      color: #42b983
+*
+  box-sizing: border-box
+  padding: 0
+  margin: 0
+body
+  font-family: 'Lato', sans-serif
+  color: #333
+ul
+  list-style-type: none
+a
+  text-decoration: none
+  color: #333
+h1,h2
+  font-weight: 300
+  line-height: 1.2
+  margin: 10px 0
+p
+  margin: 10px 0
+img
+  width: 100%
 </style>
