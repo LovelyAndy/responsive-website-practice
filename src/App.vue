@@ -2,11 +2,13 @@
   <Navbar />
   <Showcase />
   <Stats />
+  <Cli />
   <!-- <fa icon="coffee" />
   <fa :icon="['fab', 'youtube']" /> -->
 </template>
 
 <script>
+import Cli from './components/Cli.vue'
 import Navbar from './components/Navbar.vue'
 import Showcase from './components/Showcase.vue'
 import Stats from './components/Stats.vue'
@@ -15,6 +17,7 @@ export default {
     Navbar,
     Showcase,
     Stats,
+    Cli,
   },
 }
 </script>
