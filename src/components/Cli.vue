@@ -6,7 +6,7 @@
         <h3>Easy to use, cross platform CLI</h3>
       </div>
       <div class="card">
-        <h3>Deploy in seconds</h3>
+        <h3>Deploy in seconds easy</h3>
       </div>
     </div>
   </div>
