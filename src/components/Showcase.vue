@@ -2,7 +2,7 @@
   <div class="showcase">
     <div class="container grid">
       <div class="showcase__text">
-        <h1>Easier Development</h1>
+        <h1 class="lg">Easier Development</h1>
         <p>
           Deploy all sorts of shit, from large scale APIs to static, little dick websites for
           individuals. Fill out the form to try a demo of the platform!
@@ -46,7 +46,7 @@ export default {
 .showcase
   position: relative
   height: 400px
-  background-color: $c-blue
+  background-color: $c-primary
   color: $c-white
 .showcase .grid
   grid-template-columns: 55% 45%
@@ -70,13 +70,11 @@ export default {
   border-bottom: 1px solid #b4b3cb
   width: 100%
   padding: 3px
-  font-size: 16px
+  font-size: 1rem
   background-color: $c-white
 .showcase__form input:focus
   outline: none
 
-.showcase h1
-  font-size: 40px
 .showcase p
   margin: 20px 0
 .showcase::before,

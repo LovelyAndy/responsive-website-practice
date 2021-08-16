@@ -46,8 +46,8 @@ export default {
   max-width: 500px
   margin: auto
 .stats .grid h3
-  font-size: 35px
+  font-size: 3.5rem
 .stats .grid p
-  font-size: 20px
+  font-size: 1rem
   font-weight: bold
 </style>

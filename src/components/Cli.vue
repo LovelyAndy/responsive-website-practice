@@ -6,7 +6,7 @@
         <h3>Easy to use, cross platform CLI</h3>
       </div>
       <div class="card">
-        <h3>Deploy in seconds easy</h3>
+        <h3>Deploy in seconds</h3>
       </div>
     </div>
   </div>
@@ -31,4 +31,5 @@ export default {
   grid-template-rows: repeat(2, 1fr)
 .cli .grid > *:first-child
   grid-column: 1 / span 2
+  grid-row: 1 / span 2
 </style>

@@ -3,12 +3,16 @@
   <Showcase />
   <Stats />
   <Cli />
+  <Cloud />
+  <Languages />
   <!-- <fa icon="coffee" />
   <fa :icon="['fab', 'youtube']" /> -->
 </template>
 
 <script>
 import Cli from './components/Cli.vue'
+import Cloud from './components/Cloud.vue'
+import Languages from './components/Languages.vue'
 import Navbar from './components/Navbar.vue'
 import Showcase from './components/Showcase.vue'
 import Stats from './components/Stats.vue'
@@ -18,6 +22,8 @@ export default {
     Showcase,
     Stats,
     Cli,
+    Cloud,
+    Languages,
   },
 }
 </script>
@@ -31,6 +37,8 @@ export default {
   box-sizing: border-box
   padding: 0
   margin: 0
+html
+  font-size: 62.5%
 body
   font-family: 'Lato', sans-serif
   background-color: $c-white

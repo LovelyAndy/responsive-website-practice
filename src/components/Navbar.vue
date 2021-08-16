@@ -28,7 +28,7 @@ export default {
 <style lang="sass" scoped>
 @import '../css/colors.sass'
 .navbar
-  background-color: $c-blue
+  background-color: $c-primary
   color: $c-white
   height: 70px
 .navbar ul
