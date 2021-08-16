@@ -5,6 +5,7 @@
   <Cli />
   <Cloud />
   <Languages />
+  <Footer />
   <!-- <fa icon="coffee" />
   <fa :icon="['fab', 'youtube']" /> -->
 </template>
@@ -12,6 +13,7 @@
 <script>
 import Cli from './components/Cli.vue'
 import Cloud from './components/Cloud.vue'
+import Footer from './components/Footer.vue'
 import Languages from './components/Languages.vue'
 import Navbar from './components/Navbar.vue'
 import Showcase from './components/Showcase.vue'
@@ -24,6 +26,7 @@ export default {
     Cli,
     Cloud,
     Languages,
+    Footer,
   },
 }
 </script>
