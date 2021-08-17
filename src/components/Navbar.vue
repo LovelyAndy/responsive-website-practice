@@ -33,6 +33,7 @@ export default {
   height: 70px
 .navbar ul
   display: flex
+  z-index: 5000
 .navbar__wrapper
   justify-content: center
   align-items: center

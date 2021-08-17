@@ -35,6 +35,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap')
 @import './css/utils.sass'
 @import './css/colors.sass'
+@import './css/media.sass'
 
 *
   box-sizing: border-box

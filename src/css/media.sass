@@ -1,0 +1,32 @@
+// Tablets and under
+
+@media(max-width: 768px)
+  .grid,
+  .showcase .grid,
+  .stats .grid,
+  .cli .grid,
+  .cloud .grid
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr
+    background-color: red
+
+  .showcase
+    height: auto
+
+  .showcase-text
+    text-align: center
+    margin-top: 4rem
+
+  .showcase__form
+    width: 30rem
+    justify-self: center
+    margin: auto
+// Mobile
+@media(max-width: 500px)
+  .navbar
+    height: 11rem
+  .navbar .row
+    flex-direction: column
+  .navbar ul
+    padding: 1rem
+    background-color: rgba(0,0,0,0.1)
