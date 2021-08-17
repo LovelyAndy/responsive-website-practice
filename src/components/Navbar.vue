@@ -4,9 +4,9 @@
       <h1 class="_logo">Loruki</h1>
       <nav>
         <ul>
-          <li><a href="#" class="_link">Home</a></li>
-          <li><a href="#" class="_link">Features</a></li>
-          <li><a href="#" class="_link">Docs</a></li>
+          <li><router-link class="_link" to="/">Home</router-link></li>
+          <li><router-link class="_link" to="/features">Features</router-link></li>
+          <li><router-link class="_link" to="/documentation">Docs</router-link></li>
         </ul>
       </nav>
     </div>
@@ -39,6 +39,7 @@ export default {
 
 ._link
   color: $c-white
+  font-size: 16px
   padding: 10px
   margin: 0 5px
   &:hover

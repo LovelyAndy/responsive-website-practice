@@ -43,6 +43,7 @@ export default {
 
 <style lang="sass" scoped>
 @import '../css/colors.sass'
+@import '../css/utils.sass'
 .showcase
   position: relative
   height: 400px
@@ -61,7 +62,6 @@ export default {
   width: 400px
   padding: 40px
   z-index: 100
-
 .showcase__form ._form-control
   margin: 30px 0
 
@@ -78,6 +78,7 @@ export default {
 
 .showcase p
   margin: 20px 0
+  margin-right: 60px
 .showcase::before,
 .showcase::after
   content: ''
@@ -99,6 +100,9 @@ export default {
     grid-template-rows: 1fr
   .showcase
     height: auto
+
+  .showcase p
+    margin-right: 0
 
   .showcase__text
     text-align: center
