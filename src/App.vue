@@ -1,33 +1,10 @@
 <template>
-  <Navbar />
-  <Showcase />
-  <Stats />
-  <Cli />
-  <Cloud />
-  <Languages />
-  <Footer />
-  <!-- <fa icon="coffee" />
-  <fa :icon="['fab', 'youtube']" /> -->
+  <router-view />
 </template>
 
 <script>
-import Cli from './components/Cli.vue'
-import Cloud from './components/Cloud.vue'
-import Footer from './components/Footer.vue'
-import Languages from './components/Languages.vue'
-import Navbar from './components/Navbar.vue'
-import Showcase from './components/Showcase.vue'
-import Stats from './components/Stats.vue'
 export default {
-  components: {
-    Navbar,
-    Showcase,
-    Stats,
-    Cli,
-    Cloud,
-    Languages,
-    Footer,
-  },
+  components: {},
 }
 </script>
 

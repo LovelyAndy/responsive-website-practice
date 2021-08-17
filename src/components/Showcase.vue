@@ -50,6 +50,7 @@ export default {
   color: $c-white
 .showcase .grid
   grid-template-columns: 55% 45%
+  // grid-template-columns: 1fr
   gap: 30px
   overflow: visible
 .showcase__form
@@ -90,4 +91,22 @@ export default {
   // -webkit-transform: skewY(-3deg)
   // -moz-transform: skewY(-3deg)
   // -ms-transform: skewY(-3deg) dont think we need this anymore tbh
+
+@media(max-width: 768px)
+  .showcase .grid
+    // not sure why this doesnt work inside the media file
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr
+  .showcase
+    height: auto
+
+  .showcase__text
+    text-align: center
+    margin-top: 3rem
+
+  .showcase__form
+    justify-self: center
+    width: 30rem
+    margin: 0 auto
+    top: 20px
 </style>

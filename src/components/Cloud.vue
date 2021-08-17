@@ -27,6 +27,13 @@ export default {
 
 
 <style lang="sass" scoped>
+@import '../css/media.sass'
 .cloud .grid
   grid-template-columns: 4fr 3fr
+
+@media(max-width: 768px)
+  .cloud .grid
+    // not sure why this doesnt work inside the media file
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr
 </style>

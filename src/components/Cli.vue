@@ -32,4 +32,13 @@ export default {
 .cli .grid > *:first-child
   grid-column: 1 / span 2
   grid-row: 1 / span 2
+
+@media(max-width: 768px)
+  .cli .grid
+    // not sure why this doesnt work inside the media file
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr
+  .cli .grid > *:first-child
+    grid-column: 1
+    grid-row: 1
 </style>
